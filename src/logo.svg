@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">Newspaper Agency Logo — "Newspaper"</title>
+  <desc id="desc">Stylized newspaper icon with a pen accent and the agency name.</desc>
+
+  <!-- Background (transparent) -->
+
+  <!-- Newspaper body -->
+  <g transform="translate(40,25)">
+    <!-- main page -->
+    <rect x="0" y="10" rx="10" ry="10" width="330" height="140" fill="#ffffff" stroke="#20374a" stroke-width="6" />
+    <!-- folded corner -->
+    <path d="M330 10 L300 10 L330 40 Z" fill="#f6f8fa" stroke="#20374a" stroke-width="4" />
+    <!-- header stripe -->
+    <rect x="20" y="22" width="220" height="18" rx="4" fill="#20374a" />
+    <!-- text lines -->
+    <g fill="#2b485a">
+      <rect x="20" y="52" width="260" height="10" rx="4" />
+      <rect x="20" y="70" width="180" height="8" rx="4" />
+      <rect x="20" y="86" width="240" height="8" rx="4" />
+      <rect x="20" y="102" width="140" height="8" rx="4" />
+      <rect x="20" y="118" width="200" height="8" rx="4" />
+    </g>
+    <!-- small paper icon detail -->
+    <rect x="250" y="22" width="60" height="60" rx="6" fill="#e9f0f4" stroke="#20374a" stroke-width="3" />
+    <rect x="258" y="30" width="44" height="8" rx="3" fill="#9fb6c6" />
+    <rect x="258" y="44" width="30" height="6" rx="3" fill="#9fb6c6" />
+  </g>
+
+  <!-- Pen / quill accent overlapping newspaper -->
+  <g transform="translate(300,40) rotate(-18 120 60)">
+    <path d="M100 20 C90 18 65 22 42 48 C30 60 20 78 18 100 C16 122 26 132 40 140 C68 154 100 146 120 130 C140 114 156 94 142 70 C132 52 118 36 100 20 Z"
+          fill="#d9534f" stroke="#7a2a25" stroke-width="3" />
+    <rect x="108" y="86" width="10" height="36" rx="2" transform="rotate(-12 113 104)" fill="#3a3a3a"/>
+    <circle cx="115" cy="122" r="6" fill="#2b485a" />
+  </g>
+
+  <!-- Agency name -->
+  <g transform="translate(380,90)">
+    <text x="0" y="0" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="34" font-weight="700" fill="#0f3a4a">
+      NEWSWAVE
+    </text>
+    <text x="0" y="28" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#6a8b98">
+      Newspaper Agency
+    </text>
+  </g>
+
+  <!-- Optional subtle underline -->
+  <line x1="380" y1="132" x2="560" y2="132" stroke="#e0eef4" stroke-width="6" stroke-linecap="round"/>
+</svg>
